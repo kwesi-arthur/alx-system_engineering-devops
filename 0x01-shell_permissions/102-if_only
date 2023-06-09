@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chown --from hello betty --reference guillaume
+find / -user guillaume -exec chown betty hello
